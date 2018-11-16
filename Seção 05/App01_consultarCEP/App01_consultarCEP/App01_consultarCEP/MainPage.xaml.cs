@@ -15,6 +15,7 @@ namespace App01_consultarCEP
         {
             InitializeComponent();
 
+            //Se for clicado chama BuscarCEP;
             BOTAO.Clicked += BuscarCEP;
             
         }

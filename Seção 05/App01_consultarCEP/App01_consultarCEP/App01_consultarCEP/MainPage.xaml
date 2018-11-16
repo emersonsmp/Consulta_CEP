@@ -7,13 +7,10 @@
     <!-- Padding: espaço entre stacklayout, Spacing: espaço entre os filhos empilhados -->
     <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
         <Image Source="logo.png" x:Name="Logo"/>
+        
         <Entry Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="#FFFFFF" x:Name="CEP"/>
         <Button Text="Buscar CEP" TextColor="#FFFFFF" BackgroundColor="#00416B" x:Name="BOTAO"/>
-
-        <!-- Place new controls here -->
-        <Label Text="" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" x:Name="RESULTADO"/>
+        <Label Text="" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="RESULTADO"/>
 
     </StackLayout>
 
